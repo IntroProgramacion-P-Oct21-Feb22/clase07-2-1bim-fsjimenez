@@ -30,7 +30,8 @@ public class Ejemplo02 {
             System.out.println("Ingrese (s) si desea salir del ciclo ");
             salida = entrada.nextLine();
 
-            if (salida.equals("s")) {
+            if (salida.equals("s") || salida.equals("si") || salida.equals("y")
+                    || salida.equals("yes")) {
                 bandera = false;
             }
 

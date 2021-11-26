@@ -19,9 +19,11 @@ package ejemplos02;
 public class Ejemplo01 {
 
     public static void main(String[] args) {
-        int contador = 1;
+        int contador = 0;
         do {
+            
             contador = contador + 1;
+            System.out.printf("%s\n", contador);
         } while (contador <= 10);
     }
 

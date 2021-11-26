@@ -36,6 +36,7 @@ public class Ejemplo09 {
         
         do {
             System.out.println("Ingrese el nombre del estudiante");
+            nombre = entrada.nextLine();
                        
             System.out.println("Ingrese calificaciones, solo valor entero");
             nota = entrada.nextInt();
